@@ -1,29 +1,54 @@
 * {
-  margin: 1rem;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 html {
-  margin: 5rem;
   font-size: 62.5%;
 }
 
-textarea {
-  height: 15rem;
-  width: 30rem;
-  padding: 1rem;
+body {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: large;
 }
 
-button {
-  background-color: yellow;
-  display: block;
-  padding: 0.3rem;
+header {
+  padding: 2rem 0;
+  background-color: #ffe066;
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 8rem 4rem;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.textarea {
+  height: 10rem;
+  text-align: center;
+}
+
+.translate {
+  max-width: 30%;
+  margin: inherit;
+  padding: 0.5rem 1rem;
 }
 
 .output {
-  height: 15rem;
-  border: thin solid grey;
-  width: 30rem;
-  padding: 1rem;
+  border: solid thin #000;
+  height: 10rem;
+}
+
+.footer {
+  background-color: #ffe066;
+  padding: 2rem 1rem;
+  position: fixed;
+  bottom: 0;
 }
